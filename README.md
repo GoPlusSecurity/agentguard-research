@@ -22,7 +22,7 @@ Among 590 successfully scanned plugins, 94.7% were rated High or Critical based 
 - Commit and artifact verification information
 - Dataset SHA-256 checksum
 
-[View the research dataset →](./deepseek-harness/2026-09-02-plugin-ecosystem-scan/)
+[View the research dataset →](./dsh-plugin-security-scan-2026-09-02/)
 
 ---
 
