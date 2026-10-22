@@ -66,7 +66,3 @@ references:
 
 配套只读离线台账检查器和使用步骤见 [skill/SKILL.md](skill/SKILL.md)。
 
-## 核验记录与边界
-
-- 直接阅读 [Node.js 官方安全公告](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases)和 [22.23.4](https://nodejs.org/en/blog/release/v22.23.4/)、[24.22.1](https://nodejs.org/en/blog/release/v24.22.1/)、[26.12.1](https://nodejs.org/en/blog/release/v26.12.1/) 发布说明。本公告在“Security releases available”下列出具体更新，下方“Summary”仍保留未来时态的预告文字；版本和发行状态以上方发布部分和三篇发行说明为准。
-- 没有将 Node.js 四项高危推断为“严重/Critical”；没有将 TLS 主机名校验问题写成服务端认证绕过，也没有把 RCE 标题直接外推到所有部署。未做真实部署测试或 PoC 验证。
