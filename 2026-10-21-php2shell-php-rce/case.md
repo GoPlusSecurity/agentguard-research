@@ -60,7 +60,3 @@ references:
 
 离线台账与证据整理见 [skill/SKILL.md](skill/SKILL.md)；工具不探测远端、不执行 PHP、不验证利用。
 
-## 复核记录和后续关注
-
-- 本轮直接核对 PHP [正式安全公告](https://www.php.net/archive/2026.php#2026-10-21-5)、两个 php-src 安全通告和 [8.5.12 ChangeLog](https://www.php.net/ChangeLog-8.php#8.5.12)；此前的[预告](https://www.php.net/archive/2026.php#2026-10-20-1)、[Huntress](https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities)、[慢雾](https://x.com/SlowMist_Team/status/2112736351141740754)与[CERT-EU](https://cert.europa.eu/publications/security-advisories/2026-018/)保留为早期时间线，不再作为版本及根因的首要来源。
-- 尚需按各 Linux 发行版/LTS 供应商、Windows/控制面板、容器镜像及嵌入式产品分别确认回补版本；通用上游版本表不能覆盖这些包。持续核对可信在野利用报告、检测线索及误报。未执行 PoC 或扫描真实站点。
