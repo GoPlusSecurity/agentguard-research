@@ -1,4 +1,0 @@
-interface:
-  display_name: "Node.js October security self-check"
-  short_description: "Check Node.js runtime versions, DNS/TLS/Brotli input paths, and evidence gaps"
-  default_prompt: "Use $check-nodejs-october-2026 to review authorized Node.js assets, fixed versions, and reachable input paths."
