@@ -47,8 +47,3 @@ references:
 4. **查历史异常。** 将既有 TLS 握手、证书验证、CA 变更、反向代理和客户端连接日志与异常证书链关联。缺少链细节的日志或没有报错不能证明历史上未受影响；必要时在可信环境按业务采集证书链进行人工复核。若已有可疑证据，执行内部证书/密钥处置流程。
 
 离线版本台账检查器、证据格式与解释见 [skill/SKILL.md](skill/SKILL.md)。脚本仅比较清单中的 Go **构建版本字段**，不会连接 TLS 服务、读取或验证业务证书。
-
-## 复核记录
-
-- 直接核对 [Go issue #82345](https://go.dev/issue/82345)、[发布历史](https://go.dev/doc/devel/release)及 [1.27](https://github.com/golang/go/commit/90617fb7ceb59cf08bee7826bb51b8c8fb8c11de)/[1.26](https://github.com/golang/go/commit/aa64342a9e13affffea3e989d67e574475af5a78) 回补提交。补丁用 SPKI 哈希识别和过滤相应链，不提供通用运行时安全探针。
-- 截图里的“8 个中间证书”可与补丁中 8 条哈希记录对应，但“私钥泄露”的具体原因并未由上述官方说明证实。本文未执行证书攻击测试，也未检查任何真实业务资产。
