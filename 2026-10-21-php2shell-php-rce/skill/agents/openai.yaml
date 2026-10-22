@@ -1,4 +1,0 @@
-interface:
-  display_name: "PHP 严重漏洞自查"
-  short_description: "核对 PHP 修复版本、服务暴露面和已有进程行为证据"
-  default_prompt: "使用 $check-php2shell-exposure 对我方 PHP 资产做只读台账和行为证据自查，并标出待核实项。"
