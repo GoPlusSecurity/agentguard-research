@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go 证书信任自查"
+  short_description: "核对 Go 构建版本、证书验证用途与重新部署状态"
+  default_prompt: "使用 $check-go-x509-ca-distrust 核查我方 Go 服务的证书信任修复与构建部署证据。"
