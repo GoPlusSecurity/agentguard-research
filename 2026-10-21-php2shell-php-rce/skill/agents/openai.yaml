@@ -1,0 +1,4 @@
+interface:
+  display_name: "PHP critical vulnerability self-check"
+  short_description: "Check PHP runtime versions, exposure, and existing process evidence"
+  default_prompt: "Use $check-php2shell-exposure to review authorized PHP assets, fixed-version evidence, exposure, and existing process events."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go certificate trust self-check"
+  short_description: "Check Go build versions, certificate validation use, and redeployment"
+  default_prompt: "Use $check-go-x509-ca-distrust to review authorized Go services, running build evidence, and certificate validation use."
