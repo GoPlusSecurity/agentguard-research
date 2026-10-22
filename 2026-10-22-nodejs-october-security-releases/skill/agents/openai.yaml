@@ -1,4 +1,0 @@
-interface:
-  display_name: "Node.js 十月高危漏洞自查"
-  short_description: "核查 Node.js 修复版本、DNS/TLS/Brotli 输入面与证据缺口"
-  default_prompt: "使用 $check-nodejs-october-2026 核对我方 Node.js 资产、修复版本和可达输入面。"
